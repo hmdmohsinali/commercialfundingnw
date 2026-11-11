@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Commercial Funding NW | Turn Loan Denials into Protected Deposit Relationships</title>
   <meta name="description" content="Commercial Funding NW helps commercial bankers keep the borrowers they have to decline. Non-competitive capital that protects your deposits and returns the client to your desk when bankable.">
-  <meta name="theme-color" content="#0b1e2b">
+  <meta name="theme-color" content="#071621">
   <meta name="robots" content="noindex, nofollow">
   <link rel="canonical" href="https://comfundnw.com/">
 
@@ -13,18 +13,19 @@
   <meta property="og:url" content="https://comfundnw.com/">
   <meta property="og:title" content="Commercial Funding NW | Turn Loan Denials into Protected Deposit Relationships">
   <meta property="og:description" content="Non-competitive capital for the solid borrowers you have to decline. 100% deposit-safe. Zero retail competition.">
-  <meta property="og:image" content="https://comfundnw.com/images/hero-tacoma-narrows.jpg">
+  <meta property="og:image" content="https://comfundnw.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23d08c47'/%3E%3Cg fill='none' stroke='%230b1e2b' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 8v16M22 8v16M4 21h24'/%3E%3Cpath d='M4 16.5L10 8.5Q16 19 22 8.5L28 16.5'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23d9a066'/%3E%3Cg fill='none' stroke='%23071621' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 8v16M22 8v16M4 21h24'/%3E%3Cpath d='M4 16.5 10 8.5Q16 19 22 8.5l6 8'/%3E%3C/g%3E%3C/svg%3E">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,600&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="images/hero-tacoma-narrows.jpg" media="(min-width: 761px)">
-  <link rel="preload" as="image" href="images/hero-tacoma-narrows-sm.jpg" media="(max-width: 760px)">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/hero-bridge.jpg" fetchpriority="high">
 
-  <script>document.documentElement.className += ' js';</script>
+  <script>document.documentElement.classList.add('js');</script>
 
   <script type="application/ld+json">
   {
@@ -36,7 +37,7 @@
     "url": "https://comfundnw.com/",
     "telephone": "+1-253-247-3757",
     "email": "mikep@comfundnw.com",
-    "image": "https://comfundnw.com/images/hero-tacoma-narrows.jpg",
+    "image": "https://comfundnw.com/images/og-image.jpg",
     "areaServed": [
       { "@type": "Place", "name": "Pacific Northwest" },
       { "@type": "Country", "name": "United States" }
@@ -46,274 +47,455 @@
 
   <style>
     :root {
-      --ink: #0b1e2b;
-      --ink-deep: #08161f;
-      --navy: #123247;
-      --copper: #d08c47;
-      --copper-hover: #e09d58;
-      --copper-dark: #94551f;
-      --copper-soft: #f2c999;
-      --paper: #fffdf9;
-      --cream: #f6f2ea;
-      --cream-2: #ece5d8;
-      --text: #1c2a33;
-      --muted: #55636d;
-      --line: #e4ddd0;
-      --radius: 14px;
-      --shadow: 0 1px 2px rgba(11, 30, 43, .05), 0 10px 30px -12px rgba(11, 30, 43, .14);
-      --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+      --ink: #071621;
+      --paper: #faf7f2;
+      --sand: #f1ebe1;
+      --sand-2: #e6ddcf;
+      --card: #fffefb;
+      --line: #e4dccf;
+      --text: #13222c;
+      --muted: #5a6670;
+      --muted-dark: #9db0bd;
+      --brass: #d9a066;
+      --brass-2: #e7b886;
+      --brass-ink: #8a5520;
+      --sea: #86c5bb;
+      --sea-ink: #2f7569;
+      --rust: #b24f37;
+      --serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
       --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-      --section-pad: clamp(68px, 9vw, 116px);
+      --r: 16px;
+      --r-lg: 24px;
+      --shadow: 0 1px 2px rgba(7, 22, 33, .04), 0 14px 34px -16px rgba(7, 22, 33, .2);
+      --shadow-lg: 0 40px 90px -36px rgba(3, 10, 16, .7);
+      --ease: cubic-bezier(.2, .7, .2, 1);
+      --gutter: clamp(16px, 4vw, 40px);
+      --pad: clamp(80px, 10vw, 136px);
+      --header-h: 76px;
     }
 
     *, *::before, *::after { box-sizing: border-box; }
-    html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 80px; }
+    html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 16px); }
     body {
-      margin: 0;
-      font-family: var(--sans);
-      font-size: 1.0625rem;
-      line-height: 1.65;
-      color: var(--text);
-      background: var(--paper);
-      -webkit-font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
+      margin: 0; overflow-x: clip;
+      background: var(--paper); color: var(--text);
+      font: 400 1.0625rem/1.65 var(--sans);
+      -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
     }
-    img { max-width: 100%; height: auto; display: block; }
+    img, svg { display: block; max-width: 100%; }
+    img { height: auto; }
     a { color: inherit; }
-    h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.15; margin: 0; color: var(--ink); letter-spacing: -.01em; text-wrap: balance; }
-    p { margin: 0; }
-    .icon { width: 24px; height: 24px; flex: none; }
+    p, h1, h2, h3, ol, ul, dl, dd, figure, blockquote { margin: 0; }
+    ol, ul { padding: 0; list-style: none; }
+    h1, h2 { font-family: var(--serif); font-weight: 400; line-height: 1; letter-spacing: -.015em; color: var(--ink); text-wrap: balance; }
+    h3 { font-family: var(--sans); font-weight: 600; font-size: 1.2rem; line-height: 1.3; letter-spacing: -.01em; color: var(--ink); text-wrap: balance; }
+    p { text-wrap: pretty; }
 
-    .container { width: min(1160px, 100% - 32px); margin-inline: auto; }
-    .section { padding: var(--section-pad) 0; }
-    .section h2 { font-size: clamp(1.9rem, 3.6vw, 2.8rem); }
-
-    .skip-link { position: absolute; left: 16px; top: -60px; z-index: 100; background: var(--copper); color: var(--ink); padding: 10px 16px; border-radius: 8px; font-weight: 600; text-decoration: none; }
+    .container { width: min(1200px, 100% - 2 * var(--gutter)); margin-inline: auto; }
+    .section { padding: var(--pad) 0; }
+    .section h2 { font-size: clamp(2.5rem, 4.8vw, 4rem); }
+    .icon { width: 20px; height: 20px; flex: none; }
+    .nowrap { white-space: nowrap; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+    .skip-link { position: absolute; left: 16px; top: -64px; z-index: 100; padding: 10px 16px; border-radius: 10px; background: var(--brass); color: var(--ink); font-weight: 600; text-decoration: none; }
     .skip-link:focus { top: 12px; }
-    :focus-visible { outline: 3px solid var(--copper); outline-offset: 3px; border-radius: 6px; }
+    :focus-visible { outline: 2px solid var(--brass); outline-offset: 3px; border-radius: 8px; }
 
-    .eyebrow {
-      display: inline-flex; align-items: center; gap: 12px;
-      font-family: var(--sans); font-size: .78rem; font-weight: 600;
-      letter-spacing: .16em; text-transform: uppercase;
-      color: var(--copper-dark); margin-bottom: 16px;
-    }
-    .eyebrow::before { content: ""; width: 28px; height: 2px; background: currentColor; }
+    .eyebrow { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; font-size: .74rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+    .eyebrow b { display: inline-flex; align-items: center; gap: 14px; font-weight: 600; color: var(--brass-ink); }
+    .eyebrow b::after { content: ""; width: 28px; height: 1px; background: currentColor; opacity: .6; }
+    .on-dark .eyebrow { color: var(--muted-dark); }
+    .on-dark .eyebrow b { color: var(--brass); }
 
-    /* Buttons */
+    /* ---------- Buttons ---------- */
     .btn {
+      --h: 52px;
       display: inline-flex; align-items: center; justify-content: center; gap: 10px;
-      padding: 15px 24px; border-radius: 999px; border: 1.5px solid transparent;
-      font-family: var(--sans); font-weight: 600; font-size: 1rem; line-height: 1;
-      text-decoration: none; white-space: nowrap; cursor: pointer;
-      transition: background-color .2s, border-color .2s, color .2s, transform .2s;
+      min-height: var(--h); padding: 0 24px; border: 1px solid transparent; border-radius: 999px;
+      font: 600 .97rem/1 var(--sans); letter-spacing: -.005em; text-decoration: none; white-space: nowrap; cursor: pointer;
+      transition: background-color .25s, border-color .25s, color .25s, box-shadow .25s, transform .25s var(--ease);
     }
-    .btn .icon { width: 19px; height: 19px; }
-    .btn:hover { transform: translateY(-1px); }
-    .btn-primary { background: var(--copper); color: var(--ink); }
-    .btn-primary:hover { background: var(--copper-hover); }
-    .btn-outline { border-color: rgba(255, 255, 255, .45); color: #fff; }
-    .btn-outline:hover { background: rgba(255, 255, 255, .1); border-color: #fff; }
-    .btn-sm { padding: 11px 18px; font-size: .92rem; }
+    .btn .icon { width: 18px; height: 18px; }
+    .btn .arrow { transition: transform .25s var(--ease); }
+    .btn:hover .arrow { transform: translateX(3px); }
+    .btn:active { transform: scale(.98); }
+    .btn-brass { background: var(--brass); color: var(--ink); box-shadow: 0 12px 30px -12px rgba(217, 160, 102, .7); }
+    .btn-brass:hover { background: var(--brass-2); }
+    .btn-ghost { background: rgba(255, 255, 255, .04); border-color: rgba(255, 255, 255, .22); color: #fff; }
+    .btn-ghost:hover { background: rgba(255, 255, 255, .09); border-color: rgba(255, 255, 255, .5); }
+    .btn-ink { background: var(--ink); color: #fff; }
+    .btn-ink:hover { background: #12304a; }
+    .btn-sm { --h: 42px; padding: 0 18px; font-size: .9rem; }
 
-    /* Header */
+    /* ---------- Header ---------- */
     .site-header {
-      position: sticky; top: 0; z-index: 50;
-      background: rgba(11, 30, 43, .94);
-      -webkit-backdrop-filter: saturate(140%) blur(10px); backdrop-filter: saturate(140%) blur(10px);
-      border-bottom: 1px solid rgba(255, 255, 255, .08);
+      position: fixed; inset: 0 0 auto; z-index: 50;
+      background: rgba(7, 22, 33, .92); border-bottom: 1px solid rgba(255, 255, 255, .08);
+      transition: background-color .35s, border-color .35s;
     }
-    .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 72px; }
-    .brand { display: flex; align-items: center; gap: 12px; color: #fff; text-decoration: none; min-width: 0; }
-    .brand-mark { width: 40px; height: 40px; flex: none; }
-    .brand-name { display: block; font-family: var(--serif); font-weight: 600; font-size: 1.22rem; line-height: 1.1; white-space: nowrap; }
-    .brand-name span { color: var(--copper); }
-    .brand-tag { display: block; margin-top: 3px; font-size: .66rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: #9fb3c2; }
-    .header-actions { display: flex; align-items: center; gap: 22px; }
-    .header-phone { display: inline-flex; align-items: center; gap: 8px; color: #e7eef3; font-weight: 600; font-size: .95rem; text-decoration: none; transition: color .2s; }
-    .header-phone:hover { color: var(--copper); }
-    .header-phone .icon { width: 18px; height: 18px; color: var(--copper); }
+    .js .site-header { background: transparent; border-bottom-color: transparent; }
+    .js .site-header.is-scrolled {
+      background: rgba(7, 22, 33, .84); border-bottom-color: rgba(255, 255, 255, .08);
+      -webkit-backdrop-filter: blur(14px) saturate(150%); backdrop-filter: blur(14px) saturate(150%);
+    }
+    .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: var(--header-h); }
+    .brand { display: inline-flex; align-items: center; gap: 12px; color: #fff; text-decoration: none; }
+    .brand-mark { width: 38px; height: 38px; flex: none; }
+    .brand-text { display: flex; flex-direction: column; line-height: 1; }
+    .brand-name { font-family: var(--serif); font-size: 1.42rem; letter-spacing: -.01em; white-space: nowrap; }
+    .brand-name span { color: var(--brass); }
+    .brand-tag { margin-top: 5px; font-size: .58rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--muted-dark); }
+    .nav { display: flex; gap: 32px; }
+    .nav a { position: relative; font-size: .92rem; font-weight: 500; color: rgba(255, 255, 255, .72); text-decoration: none; transition: color .2s; }
+    .nav a::after { content: ""; position: absolute; left: 0; right: 0; bottom: -6px; height: 1px; background: var(--brass); transform: scaleX(0); transform-origin: left; transition: transform .3s var(--ease); }
+    .nav a:hover { color: #fff; }
+    .nav a:hover::after { transform: scaleX(1); }
+    .header-actions { display: flex; align-items: center; gap: 20px; }
+    .header-phone { display: inline-flex; align-items: center; gap: 8px; color: #fff; font-size: .92rem; font-weight: 600; text-decoration: none; transition: color .2s; }
+    .header-phone .icon { width: 17px; height: 17px; color: var(--brass); }
+    .header-phone:hover { color: var(--brass); }
 
-    /* Hero */
-    .hero {
-      position: relative; isolation: isolate; color: #fff;
-      background: var(--ink) url("images/hero-tacoma-narrows.jpg") 68% center / cover no-repeat;
-    }
-    .hero::before {
-      content: ""; position: absolute; inset: 0; z-index: -1;
+    /* ---------- Hero ---------- */
+    .hero { position: relative; isolation: isolate; overflow: hidden; background: var(--ink); color: #fff; padding-top: calc(var(--header-h) + clamp(40px, 6vw, 88px)); }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: -1; pointer-events: none;
       background:
-        linear-gradient(90deg, rgba(9, 24, 35, .96) 0%, rgba(9, 24, 35, .88) 40%, rgba(9, 24, 35, .45) 72%, rgba(9, 24, 35, .2) 100%),
-        linear-gradient(0deg, rgba(9, 24, 35, .55) 0%, rgba(9, 24, 35, 0) 45%);
+        radial-gradient(60% 55% at 88% 8%, rgba(217, 160, 102, .2), transparent 70%),
+        radial-gradient(50% 50% at 0% 100%, rgba(134, 197, 187, .12), transparent 70%),
+        linear-gradient(180deg, #071621, #081a27);
     }
-    .hero-inner { max-width: 690px; padding: clamp(72px, 10vw, 132px) 0 clamp(64px, 8vw, 108px); }
-    .hero .eyebrow { color: var(--copper); }
-    .hero h1 { color: #fff; font-size: clamp(2.35rem, 5.4vw, 4.05rem); line-height: 1.06; margin-bottom: 24px; }
-    .hero h1 em { font-style: italic; color: var(--copper-soft); }
-    .hero-lede { max-width: 610px; font-size: clamp(1.06rem, 1.5vw, 1.2rem); color: rgba(255, 255, 255, .86); }
-    .hero-cta-label { margin-top: 34px; font-weight: 600; font-size: 1.02rem; color: #fff; }
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; }
-    .trust { list-style: none; display: flex; flex-wrap: wrap; gap: 10px 26px; margin: 34px 0 0; padding: 24px 0 0; border-top: 1px solid rgba(255, 255, 255, .16); }
-    .trust li { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: .95rem; }
-    .trust .icon { width: 20px; height: 20px; color: var(--copper); }
-    .hero-note { margin-top: 16px; font-size: .95rem; color: rgba(255, 255, 255, .72); }
+    .hero-bg::before {
+      content: ""; position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255, 255, 255, .05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .05) 1px, transparent 1px);
+      background-size: 72px 72px;
+      -webkit-mask-image: radial-gradient(70% 60% at 30% 30%, #000 20%, transparent 75%);
+              mask-image: radial-gradient(70% 60% at 30% 30%, #000 20%, transparent 75%);
+    }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(40px, 6vw, 96px); align-items: center; }
+    .pill { display: inline-flex; align-items: center; gap: 10px; padding: 8px 15px 8px 11px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .14); background: rgba(255, 255, 255, .04); font-size: .8rem; font-weight: 500; color: rgba(255, 255, 255, .85); }
+    .pill-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--sea); box-shadow: 0 0 0 4px rgba(134, 197, 187, .18); }
+    .hero h1 { margin: 26px 0 28px; font-size: clamp(3rem, 6.3vw, 5.4rem); line-height: .98; color: #fff; }
+    .hero h1 em { color: var(--brass); }
+    .lede { max-width: 560px; font-size: clamp(1.06rem, 1.3vw, 1.2rem); line-height: 1.62; color: rgba(255, 255, 255, .74); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 38px; }
+    .hero-note { margin-top: 22px; font-size: .9rem; color: rgba(255, 255, 255, .6); }
 
-    /* Problem */
-    .split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 72px); align-items: start; }
-    .prose p { font-size: 1.1rem; color: var(--muted); }
-    .prose p + p { margin-top: 1.1em; }
-    .prose strong { color: var(--ink); font-weight: 600; }
-    .chain { list-style: none; margin: 56px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; counter-reset: chain; }
-    .chain li { position: relative; padding: 22px 22px 24px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
-    .chain li::before {
-      counter-increment: chain; content: counter(chain);
-      display: grid; place-items: center; width: 30px; height: 30px; margin-bottom: 14px;
-      border-radius: 50%; background: var(--cream-2); color: var(--navy); font-weight: 700; font-size: .85rem;
+    .hero-visual { position: relative; padding-bottom: 72px; }
+    .hero-photo { position: relative; overflow: hidden; aspect-ratio: 4 / 5; border-radius: 28px; border: 1px solid rgba(255, 255, 255, .1); box-shadow: var(--shadow-lg); }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.85) contrast(1.04); }
+    .hero-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7, 22, 33, 0) 45%, rgba(7, 22, 33, .6) 100%), linear-gradient(140deg, rgba(217, 160, 102, .14), rgba(7, 22, 33, .08) 60%); }
+    .chip-wrap { position: absolute; top: 28px; right: -18px; }
+    .chip { display: flex; align-items: center; gap: 12px; padding: 12px 18px 12px 12px; border-radius: 16px; background: rgba(250, 247, 242, .95); color: var(--ink); box-shadow: var(--shadow-lg); }
+    .chip-ic { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 11px; background: var(--ink); color: var(--brass); }
+    .chip small { display: block; font-size: .66rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+    .chip strong { display: block; font-size: .95rem; font-weight: 600; }
+    .loop-wrap { position: absolute; left: clamp(-64px, -4.5vw, -16px); bottom: 0; width: min(390px, 88%); }
+    .loop-card {
+      padding: 18px 18px 14px; border-radius: 22px;
+      background: rgba(9, 28, 40, .8); border: 1px solid rgba(255, 255, 255, .12);
+      -webkit-backdrop-filter: blur(18px) saturate(150%); backdrop-filter: blur(18px) saturate(150%);
+      box-shadow: var(--shadow-lg);
     }
-    .chain li:not(:last-child)::after {
-      content: ""; position: absolute; z-index: 1; top: 50%; right: -19px;
-      width: 10px; height: 10px; border-top: 2px solid var(--copper); border-right: 2px solid var(--copper);
-      transform: translateY(-50%) rotate(45deg);
-    }
-    .chain strong { display: block; margin-bottom: 6px; font-family: var(--serif); font-size: 1.12rem; line-height: 1.25; color: var(--ink); }
-    .chain span { display: block; font-size: .95rem; line-height: 1.5; color: var(--muted); }
-    .chain .is-loss { background: var(--ink); border-color: var(--ink); }
-    .chain .is-loss::before { background: var(--copper); color: var(--ink); }
-    .chain .is-loss strong { color: #fff; }
-    .chain .is-loss span { color: #b9c8d3; }
+    .loop-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
+    .loop-title { font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: rgba(255, 255, 255, .7); }
+    .loop-badge { display: inline-flex; align-items: center; gap: 7px; padding: 4px 10px; border-radius: 999px; background: rgba(134, 197, 187, .14); color: var(--sea); font-size: .72rem; font-weight: 600; white-space: nowrap; }
+    .loop-badge i { width: 6px; height: 6px; border-radius: 50%; background: var(--sea); animation: pulse 2s ease-in-out infinite; }
+    .loop-svg { width: 100%; height: auto; overflow: visible; }
+    .loop-svg text { font-family: var(--sans); font-weight: 600; }
+    .loop-arc { fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 4 6; animation: dash 1.2s linear infinite; }
+    .arc-top { stroke: var(--brass); }
+    .arc-bot { stroke: var(--sea); }
+    .loop-foot { display: flex; align-items: center; gap: 10px; margin-top: 6px; padding-top: 12px; border-top: 1px solid rgba(255, 255, 255, .1); font-size: .84rem; color: rgba(255, 255, 255, .82); }
+    .loop-foot .icon { width: 16px; height: 16px; color: var(--sea); }
 
-    /* Why partner */
-    .why { background: var(--cream); }
-    .section-head { max-width: 760px; }
-    .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 48px; }
-    .card {
-      padding: clamp(26px, 3vw, 34px); background: #fff; border: 1px solid var(--line);
-      border-radius: var(--radius); box-shadow: var(--shadow); transition: transform .25s, box-shadow .25s;
-    }
-    .card:hover { transform: translateY(-3px); box-shadow: 0 1px 2px rgba(11, 30, 43, .05), 0 18px 40px -14px rgba(11, 30, 43, .22); }
-    .icon-badge { display: grid; place-items: center; width: 50px; height: 50px; margin-bottom: 20px; border-radius: 12px; background: var(--ink); color: var(--copper); }
-    .card h3 { font-size: 1.38rem; margin-bottom: 10px; }
-    .card p { color: var(--muted); }
+    .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: clamp(56px, 7vw, 104px); border-top: 1px solid rgba(255, 255, 255, .1); }
+    .stat { padding: 30px 24px 40px; }
+    .stat:first-child { padding-left: 0; }
+    .stat + .stat { border-left: 1px solid rgba(255, 255, 255, .1); }
+    .stat-num { display: block; font-family: var(--serif); font-weight: 400; font-size: clamp(2.3rem, 3.8vw, 3.4rem); line-height: 1; letter-spacing: -.02em; color: #fff; }
+    .stat-label { display: block; margin-top: 12px; font-size: .9rem; color: var(--muted-dark); }
 
-    /* Scenarios */
-    .scenarios { background: var(--navy); color: #fff; }
-    .scenarios .eyebrow { color: var(--copper); }
+    /* ---------- Problem ---------- */
+    .problem { background: var(--paper); }
+    .intro { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(32px, 6vw, 96px); align-items: end; }
+    .prose p { font-size: 1.08rem; color: var(--muted); }
+    .prose p + p { margin-top: 1em; }
+    .prose strong { font-weight: 600; color: var(--ink); }
+    .compare { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: auto repeat(4, auto); column-gap: 20px; margin-top: clamp(48px, 6vw, 80px); }
+    .compare-col { display: grid; grid-row: span 5; grid-template-rows: subgrid; padding: 6px clamp(22px, 3vw, 34px) 12px; border-radius: var(--r-lg); }
+    .compare-col ol { display: grid; grid-row: span 4; grid-template-rows: subgrid; }
+    .compare-head { display: flex; align-items: center; gap: 12px; padding: 20px 0; font-size: .76rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; border-bottom: 1px solid; }
+    .compare-head svg { width: 26px; height: 26px; }
+    .compare li { display: flex; align-items: flex-start; gap: 14px; padding: 18px 0; border-bottom: 1px solid; font-size: 1rem; line-height: 1.5; }
+    .compare li:last-child { border-bottom: 0; }
+    .mark { display: grid; place-items: center; flex: none; width: 26px; height: 26px; border-radius: 50%; }
+    .mark .icon { width: 14px; height: 14px; }
+    .without { background: var(--sand); border: 1px solid var(--line); }
+    .without .compare-head { color: var(--muted); border-color: var(--sand-2); }
+    .without li { color: var(--muted); border-color: var(--sand-2); }
+    .without .mark { background: rgba(178, 79, 55, .12); color: var(--rust); }
+    .without li:last-child { color: var(--ink); font-weight: 600; }
+    .with { background: var(--ink); color: #fff; box-shadow: 0 30px 60px -30px rgba(7, 22, 33, .45); }
+    .with .compare-head { color: var(--brass); border-color: rgba(255, 255, 255, .12); }
+    .with li { color: rgba(255, 255, 255, .8); border-color: rgba(255, 255, 255, .1); }
+    .with .mark { background: rgba(217, 160, 102, .16); color: var(--brass); }
+    .with li:last-child { color: #fff; font-weight: 600; }
+
+    /* ---------- Why partner (bento) ---------- */
+    .why { background: var(--sand); }
+    .section-head { max-width: 780px; }
+    .bento { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 18px; margin-top: clamp(40px, 5vw, 64px); }
+    .tile {
+      position: relative; overflow: hidden; padding: clamp(26px, 3vw, 40px);
+      border-radius: var(--r-lg); background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow);
+      transition: transform .4s var(--ease), box-shadow .4s var(--ease);
+    }
+    .tile:hover { transform: translateY(-4px); box-shadow: 0 1px 2px rgba(7, 22, 33, .04), 0 26px 50px -22px rgba(7, 22, 33, .32); }
+    .t1 { grid-column: span 7; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: center; }
+    .t2 { grid-column: span 5; }
+    .t3 { grid-column: span 5; }
+    .t4 { grid-column: span 7; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 32px; align-items: center; }
+    .tile-icon { display: grid; place-items: center; width: 46px; height: 46px; margin-bottom: 22px; border-radius: 13px; background: var(--ink); color: var(--brass); }
+    .tile h3 { margin-bottom: 10px; font-size: 1.35rem; }
+    .tile p { font-size: 1rem; color: var(--muted); }
+    .tile-dark { background: var(--ink); border-color: var(--ink); color: #fff; }
+    .tile-dark h3 { color: #fff; }
+    .tile-dark p { color: rgba(255, 255, 255, .72); }
+    .tile-dark .tile-icon { background: rgba(217, 160, 102, .14); }
+    .tile-sand { background: linear-gradient(155deg, #efdcc2 0%, #e3c49d 100%); border-color: #dbbf98; }
+    .tile-sand p { color: #4a3b2a; }
+    .tile .big-num { font-family: var(--serif); font-size: clamp(4.8rem, 8.5vw, 7.4rem); line-height: .85; letter-spacing: -.03em; color: var(--ink); }
+    .tile .big-num-label { margin: 14px 0 28px; font-size: .95rem; font-weight: 600; color: var(--ink); }
+
+    .acct { padding: 16px 18px; border-radius: 18px; background: rgba(255, 255, 255, .04); border: 1px solid rgba(255, 255, 255, .1); font-size: .86rem; }
+    .acct-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid rgba(255, 255, 255, .1); font-weight: 600; color: #fff; }
+    .badge-sea { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: rgba(134, 197, 187, .14); color: var(--sea); font-size: .72rem; font-weight: 600; white-space: nowrap; }
+    .badge-sea .icon { width: 12px; height: 12px; }
+    .acct-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 11px 0; border-bottom: 1px dashed rgba(255, 255, 255, .1); color: rgba(255, 255, 255, .78); }
+    .acct-row:last-child { border-bottom: 0; padding-bottom: 2px; }
+    .acct-status { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--sea); white-space: nowrap; }
+    .acct-status .icon { width: 14px; height: 14px; }
+    .acct-row.bridge .acct-status { color: var(--brass); }
+
+    .route { position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 4px 0 30px; font-size: .76rem; font-weight: 600; line-height: 1.3; text-align: center; color: var(--muted); }
+    .route::before { content: ""; position: absolute; top: 8px; left: 12.5%; right: 12.5%; height: 2px; background: linear-gradient(90deg, var(--brass), var(--sea-ink)); }
+    .route li { position: relative; display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 0 4px; }
+    .r-dot { position: relative; z-index: 1; width: 18px; height: 18px; border-radius: 50%; background: var(--card); border: 3px solid var(--brass); }
+    .route .home { color: var(--sea-ink); }
+    .route .home .r-dot { background: var(--sea-ink); border-color: var(--sea-ink); box-shadow: 0 0 0 5px rgba(47, 117, 105, .15); }
+
+    .flows { display: grid; gap: 12px; }
+    .flow { display: grid; grid-template-columns: auto minmax(40px, 1fr) auto; align-items: center; gap: 10px 12px; padding: 14px 16px; border-radius: 16px; background: var(--paper); border: 1px solid var(--line); }
+    .flow-node { padding: 6px 11px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); font-size: .78rem; font-weight: 700; color: var(--ink); white-space: nowrap; }
+    .flow-node.cf { background: var(--ink); border-color: var(--ink); color: var(--brass); }
+    .flow-line { position: relative; height: 2px; background: repeating-linear-gradient(90deg, rgba(138, 85, 32, .45) 0 5px, transparent 5px 10px); }
+    .flow-line i { position: absolute; top: 50%; left: 0; width: 9px; height: 9px; margin-top: -4.5px; border-radius: 50%; background: var(--brass-ink); animation: travel 2.6s var(--ease) infinite; }
+    .flow.back .flow-line { background: repeating-linear-gradient(90deg, rgba(47, 117, 105, .45) 0 5px, transparent 5px 10px); }
+    .flow.back .flow-line i { background: var(--sea-ink); animation-direction: reverse; }
+    .flow-cap { grid-column: 1 / -1; font-size: .84rem; line-height: 1.45; color: var(--muted); }
+    .flow-cap b { font-weight: 600; color: var(--ink); }
+
+    /* ---------- Quote band ---------- */
+    .band { position: relative; isolation: isolate; overflow: hidden; display: grid; align-items: end; min-height: clamp(440px, 68vh, 660px); background: var(--ink); color: #fff; }
+    .band-img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; object-position: center 70%; }
+    .band::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(7, 22, 33, .15) 0%, rgba(7, 22, 33, .5) 45%, rgba(7, 22, 33, .9) 85%, #071621 100%); }
+    .band-inner { padding: clamp(56px, 8vw, 104px) 0; }
+    .band blockquote p { max-width: 920px; font-family: var(--serif); font-size: clamp(2.5rem, 5.6vw, 4.8rem); line-height: 1.02; letter-spacing: -.015em; text-wrap: balance; }
+    .band blockquote em { color: var(--brass); }
+    .band figcaption { margin-top: 24px; font-size: .74rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: rgba(255, 255, 255, .72); }
+    @supports (animation-timeline: view()) {
+      .band-img { animation: band-parallax linear both; animation-timeline: view(); animation-range: cover 0% cover 100%; }
+      @keyframes band-parallax { from { transform: translateY(-6%) scale(1.14); } to { transform: translateY(6%) scale(1.14); } }
+    }
+
+    /* ---------- Scenarios ---------- */
+    .scenarios { background: var(--ink); color: #fff; }
     .scenarios h2 { color: #fff; }
-    .scenario-grid { list-style: none; margin: 48px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-    .scenario-grid li {
-      display: flex; align-items: flex-start; gap: 16px; padding: 26px;
-      background: rgba(255, 255, 255, .04); border: 1px solid rgba(255, 255, 255, .12); border-radius: var(--radius);
-      transition: border-color .25s, background-color .25s;
-    }
-    .scenario-grid li:hover { border-color: rgba(208, 140, 71, .55); background: rgba(255, 255, 255, .06); }
-    .scenario-grid .icon { width: 28px; height: 28px; margin-top: 2px; color: var(--copper); }
-    .scenario-grid h3 { font-size: 1.16rem; line-height: 1.3; color: #fff; }
-    .scenario-grid p { margin-top: 6px; font-size: .95rem; line-height: 1.5; color: #a9bccb; }
-    .scenarios-cta {
-      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px;
-      margin-top: 40px; padding: 24px 28px; border-radius: var(--radius);
-      background: rgba(208, 140, 71, .1); border: 1px solid rgba(208, 140, 71, .35);
-    }
-    .scenarios-cta p { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; }
+    .head-split { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 28px 64px; }
+    .head-split .section-head { flex: 1 1 520px; }
+    .head-aside { flex: 0 1 360px; }
+    .head-aside p { margin-bottom: 20px; color: var(--muted-dark); }
+    .scn-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(32px, 5vw, 72px); margin-top: clamp(44px, 5vw, 72px); }
+    .scn { display: grid; grid-template-columns: 52px minmax(0, 1fr) 36px; gap: 14px; align-items: start; height: 100%; padding: 30px 0 32px; border-top: 1px solid rgba(255, 255, 255, .12); color: #fff; text-decoration: none; }
+    .scn-list li:nth-last-child(-n+2) .scn { border-bottom: 1px solid rgba(255, 255, 255, .12); }
+    .scn-num { padding-top: 6px; font-family: var(--serif); font-size: 1.35rem; line-height: 1; color: var(--brass); }
+    .scn h3 { font-family: var(--serif); font-weight: 400; font-size: clamp(1.55rem, 2.3vw, 2rem); line-height: 1.1; letter-spacing: -.01em; color: #fff; transition: color .25s; }
+    .scn p { margin-top: 10px; font-size: .95rem; color: var(--muted-dark); }
+    .scn-go { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .18); color: rgba(255, 255, 255, .65); transition: background-color .3s, border-color .3s, color .3s, transform .3s var(--ease); }
+    .scn-go .icon { width: 16px; height: 16px; }
+    .scn:hover h3 { color: var(--brass); }
+    .scn:hover .scn-go { background: var(--brass); border-color: var(--brass); color: var(--ink); transform: rotate(-45deg); }
 
-    /* How it works */
-    .how-grid { display: grid; grid-template-columns: 1fr 1.05fr; gap: clamp(40px, 6vw, 80px); align-items: center; }
-    .how-media { position: relative; margin: 0; }
-    .how-media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 58% center; border-radius: 20px; box-shadow: 0 30px 60px -24px rgba(11, 30, 43, .4); }
-    .badge {
-      position: absolute; left: -18px; bottom: 30px; padding: 16px 22px;
-      background: var(--ink); color: #fff; border-radius: 14px; box-shadow: var(--shadow);
-      font-size: .9rem; line-height: 1.3;
-    }
-    .badge strong { display: block; font-family: var(--serif); font-size: 1.75rem; line-height: 1.1; color: var(--copper); }
-    .steps { list-style: none; margin: 36px 0 0; padding: 0; display: grid; gap: 14px; }
-    .steps li { display: grid; grid-template-columns: auto 1fr; gap: 20px; padding: 24px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
-    .step-num { font-family: var(--serif); font-size: 1.6rem; font-weight: 700; line-height: 1.1; color: var(--copper-dark); }
-    .steps h3 { font-size: 1.26rem; margin-bottom: 6px; }
-    .steps p { color: var(--muted); }
+    /* ---------- How it works ---------- */
+    .how { background: var(--paper); }
+    .center { margin-inline: auto; text-align: center; }
+    .center .eyebrow { justify-content: center; }
+    .timeline { --g: clamp(28px, 4vw, 64px); position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--g); margin-top: clamp(52px, 6vw, 80px); }
+    .timeline::before, .timeline::after { content: ""; position: absolute; top: 11px; left: 12px; right: calc((100% - 2 * var(--g)) / 3 - 12px); height: 2px; }
+    .timeline::before { background: var(--line); }
+    .timeline::after { background: linear-gradient(90deg, var(--brass) 0%, var(--brass) 55%, var(--sea-ink) 100%); transform-origin: left; transition: transform 1.6s var(--ease) .2s; }
+    .js .timeline:not(.is-in)::after { transform: scaleX(0); }
+    .step { position: relative; padding-top: 52px; }
+    .step-dot { position: absolute; top: 0; left: 0; width: 24px; height: 24px; border-radius: 50%; background: var(--paper); border: 2px solid var(--brass); box-shadow: 0 0 0 6px var(--paper); }
+    .step-dot::after { content: ""; position: absolute; inset: 5px; border-radius: 50%; background: var(--brass); }
+    .step:last-child .step-dot { border-color: var(--sea-ink); }
+    .step:last-child .step-dot::after { background: var(--sea-ink); }
+    .step-num { display: block; font-family: var(--serif); font-size: 3.6rem; line-height: .9; letter-spacing: -.02em; color: var(--brass-ink); }
+    .step h3 { margin: 18px 0 10px; font-size: 1.38rem; }
+    .step p { color: var(--muted); }
+    .step-tag { display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; padding: 7px 13px; border-radius: 999px; background: var(--sand); border: 1px solid var(--line); font-size: .8rem; font-weight: 600; color: var(--ink); }
+    .step-tag .icon { width: 14px; height: 14px; color: var(--brass-ink); }
+    .handsoff { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 32px; margin-top: clamp(52px, 6vw, 80px); padding: 24px 28px; border-radius: var(--r-lg); background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); }
+    .handsoff-copy { display: flex; align-items: center; gap: 16px; }
+    .handsoff-ic { display: grid; place-items: center; flex: none; width: 46px; height: 46px; border-radius: 50%; background: var(--ink); color: var(--brass); }
+    .handsoff p { color: var(--muted); }
+    .handsoff strong { display: block; font-weight: 600; color: var(--ink); }
+    .handsoff-links { display: flex; flex-wrap: wrap; gap: 10px; }
+    .link-pill { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); font-size: .9rem; font-weight: 600; color: var(--ink); text-decoration: none; transition: border-color .2s, background-color .2s; }
+    .link-pill:hover { border-color: var(--brass); background: var(--card); }
+    .link-pill .icon { width: 16px; height: 16px; color: var(--brass-ink); }
 
-    /* Final CTA */
-    .cta {
-      position: relative; isolation: isolate; color: #fff; text-align: center;
-      background: var(--ink) url("images/seattle-dusk.jpg") center 62% / cover no-repeat;
+    /* ---------- Final CTA ---------- */
+    .cta { position: relative; isolation: isolate; overflow: hidden; background: var(--ink); color: #fff; padding: var(--pad) 0 calc(var(--pad) + 24px); }
+    .cta::before { content: ""; position: absolute; inset: 0; z-index: -2; background: radial-gradient(50% 60% at 12% 0%, rgba(217, 160, 102, .16), transparent 70%), radial-gradient(40% 50% at 100% 30%, rgba(134, 197, 187, .1), transparent 70%); }
+    .cta-sky {
+      position: absolute; inset: auto 0 0 0; z-index: -1; height: 72%;
+      background: url("images/seattle-dusk.jpg") center 72% / cover no-repeat; opacity: .26; filter: saturate(.6);
+      -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 75%); mask-image: linear-gradient(180deg, transparent 0%, #000 75%);
     }
-    .cta::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(9, 24, 35, .9) 0%, rgba(9, 24, 35, .76) 50%, rgba(9, 24, 35, .93) 100%); }
-    .cta-inner { max-width: 820px; padding: clamp(80px, 11vw, 136px) 0; }
-    .cta .eyebrow { color: var(--copper); }
-    .cta h2 { color: #fff; font-size: clamp(2rem, 4.4vw, 3.3rem); }
-    .cta-lede { max-width: 560px; margin: 18px auto 0; font-size: 1.15rem; color: rgba(255, 255, 255, .85); }
-    .contact-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 700px; margin: 40px auto 0; text-align: left; }
-    .contact-card {
-      display: flex; align-items: center; gap: 16px; padding: 22px 24px; min-width: 0;
-      color: #fff; text-decoration: none; border-radius: 16px;
-      background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .2);
-      -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
-      transition: background-color .2s, border-color .2s, transform .2s;
-    }
-    .contact-card:hover { background: rgba(255, 255, 255, .14); border-color: var(--copper); transform: translateY(-2px); }
-    .contact-card .ic { display: grid; place-items: center; width: 50px; height: 50px; flex: none; border-radius: 50%; background: var(--copper); color: var(--ink); }
-    .contact-card .label { display: block; font-size: .76rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #c9d6df; }
-    .contact-card .value { display: block; font-size: 1.14rem; font-weight: 600; overflow-wrap: anywhere; }
-    .cta-name { margin-top: 28px; font-size: .95rem; color: rgba(255, 255, 255, .7); }
+    .cta-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(48px, 7vw, 112px); align-items: center; }
+    .cta h2 { color: #fff; font-size: clamp(2.8rem, 5.4vw, 4.6rem); }
+    .cta-lede { max-width: 520px; margin-top: 24px; font-size: 1.15rem; color: rgba(255, 255, 255, .75); }
+    .contacts { display: grid; gap: 12px; max-width: 520px; margin-top: 40px; }
+    .contact { display: flex; align-items: center; gap: 16px; padding: 18px 20px; border-radius: 18px; background: rgba(255, 255, 255, .05); border: 1px solid rgba(255, 255, 255, .12); color: #fff; text-decoration: none; transition: background-color .25s, border-color .25s; }
+    .contact:hover { background: rgba(255, 255, 255, .09); border-color: rgba(217, 160, 102, .6); }
+    .contact-ic { display: grid; place-items: center; flex: none; width: 48px; height: 48px; border-radius: 50%; background: var(--brass); color: var(--ink); }
+    .contact-label { display: block; font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted-dark); }
+    .contact-value { display: block; margin-top: 4px; font-size: 1.18rem; font-weight: 600; overflow-wrap: anywhere; }
+    .contact .arrow { margin-left: auto; color: rgba(255, 255, 255, .45); transition: transform .25s var(--ease), color .25s; }
+    .contact:hover .arrow { color: var(--brass); transform: translateX(4px); }
+    .cta-name { margin-top: 26px; font-size: .9rem; color: rgba(255, 255, 255, .6); }
+    .mail { border-radius: 22px; overflow: hidden; background: var(--paper); color: var(--ink); box-shadow: 0 50px 110px -40px rgba(0, 0, 0, .75); transform: rotate(1.2deg); transition: transform .5s var(--ease); }
+    .mail:hover { transform: rotate(0deg) translateY(-4px); }
+    .mail-bar { display: flex; align-items: center; gap: 14px; padding: 14px 18px; background: var(--sand); border-bottom: 1px solid var(--line); font-size: .82rem; font-weight: 600; color: var(--muted); }
+    .mail-dots { display: flex; gap: 6px; }
+    .mail-dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--sand-2); }
+    .mail-body { padding: 8px 24px 26px; }
+    .mail-meta > div { display: flex; gap: 14px; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: .9rem; }
+    .mail-meta dt { width: 62px; flex: none; color: var(--muted); }
+    .mail-meta dd { font-weight: 600; overflow-wrap: anywhere; }
+    .mail-label { margin: 22px 0 8px; font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-ink); }
+    .mail-fields li { display: flex; align-items: center; gap: 14px; padding: 9px 0; font-size: .92rem; font-weight: 500; }
+    .mail-fields li::after { content: ""; flex: 1; height: 8px; border-radius: 4px; background: linear-gradient(90deg, var(--sand-2), rgba(230, 221, 207, 0)); }
+    .mail .btn { width: 100%; margin-top: 22px; }
 
-    /* Footer */
-    .site-footer { background: var(--ink-deep); color: #9fb0bc; font-size: .92rem; padding: 52px 0 36px; }
-    .footer-inner { display: grid; grid-template-columns: auto 1fr; gap: 28px 56px; align-items: start; }
-    .disclaimer { max-width: 640px; line-height: 1.65; }
-    .footer-bottom { grid-column: 1 / -1; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, .08); }
-    .footer-bottom a { color: #d5e0e7; text-decoration: none; }
-    .footer-bottom a:hover { color: var(--copper); }
-    .footer-links { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+    /* ---------- Footer ---------- */
+    .footer { background: #04101a; color: var(--muted-dark); padding: 64px 0 28px; font-size: .92rem; }
+    .footer-top { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 32px 64px; align-items: start; padding-bottom: 40px; border-bottom: 1px solid rgba(255, 255, 255, .08); }
+    .disclaimer { max-width: 560px; line-height: 1.7; }
+    .footer-contact { display: grid; gap: 8px; justify-items: end; }
+    .footer-contact a { color: #fff; font-weight: 500; text-decoration: none; transition: color .2s; }
+    .footer-contact a:hover { color: var(--brass); }
+    .footer-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; padding-top: 24px; font-size: .84rem; }
+    .footer-bottom a { color: var(--muted-dark); text-decoration: none; }
+    .footer-bottom a:hover { color: #fff; }
 
-    /* Mobile contact bar */
     .mobile-bar { display: none; }
 
-    /* Reveal on scroll (only when JS is running) */
-    .js [data-reveal] { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s cubic-bezier(.2, .7, .2, 1); transition-delay: calc(var(--d, 0) * 90ms); }
-    .js [data-reveal].is-visible { opacity: 1; transform: none; }
+    /* ---------- Motion ---------- */
+    @keyframes rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+    @keyframes unveil { from { opacity: 0; clip-path: inset(10% 10% 10% 10% round 28px); } to { opacity: 1; clip-path: inset(0 round 28px); } }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    @keyframes dash { to { stroke-dashoffset: -20; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+    @keyframes travel { from { left: 0; } to { left: calc(100% - 9px); } }
+
+    .rise { animation: rise 1s var(--ease) backwards; animation-delay: calc(var(--d, 0) * 110ms + 80ms); }
+    .unveil { animation: unveil 1.3s var(--ease) .15s backwards; }
+    .bob { animation: bob 7s ease-in-out infinite; }
+    .bob-2 { animation: bob 8s ease-in-out -3s infinite; }
+    .js [data-reveal] { opacity: 0; }
+    .js [data-reveal].is-in { opacity: 1; animation: rise 1s var(--ease) backwards; animation-delay: calc(var(--d, 0) * 100ms); }
 
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
-      .js [data-reveal] { opacity: 1; transform: none; transition: none; }
-      .btn, .card, .contact-card { transition: none; }
-      .btn:hover, .card:hover, .contact-card:hover { transform: none; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .js [data-reveal] { opacity: 1; }
+      .js .timeline:not(.is-in)::after { transform: none; }
+      .loop-dot, .flow-line i { display: none; }
     }
 
-    /* Responsive */
-    @media (max-width: 960px) {
-      .chain { grid-template-columns: 1fr 1fr; }
-      .chain li:nth-child(2)::after { display: none; }
-      .scenario-grid { grid-template-columns: 1fr 1fr; }
-      .how-grid { grid-template-columns: 1fr; }
-      .how-media img { aspect-ratio: 16 / 10; }
-      .badge { left: 16px; bottom: 16px; }
+    /* ---------- Responsive ---------- */
+    @media (max-width: 1080px) {
+      .nav { display: none; }
+    }
+    @media (max-width: 1024px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-copy { max-width: 720px; }
+      .hero-visual { max-width: 640px; padding-bottom: 0; }
+      .hero-photo { aspect-ratio: 4 / 3; }
+      .chip-wrap { top: 16px; right: 16px; }
+      .loop-wrap { position: relative; left: auto; bottom: auto; width: auto; max-width: 440px; margin: -120px 16px 0; }
+      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .stat:nth-child(3) { padding-left: 0; border-left: 0; }
+      .stat:nth-child(n+3) { border-top: 1px solid rgba(255, 255, 255, .1); }
+      .intro { grid-template-columns: 1fr; align-items: start; }
+      .t1, .t4 { grid-column: span 12; }
+      .t2, .t3 { grid-column: span 6; }
+      .cta-grid { grid-template-columns: 1fr; }
+      .mail { max-width: 520px; transform: none; }
+      .footer-top { grid-template-columns: 1fr; }
+      .footer-contact { justify-items: start; }
     }
     @media (max-width: 760px) {
-      .hero { background-image: url("images/hero-tacoma-narrows-sm.jpg"); background-position: 72% center; }
-      .hero::before { background: linear-gradient(180deg, rgba(9, 24, 35, .82) 0%, rgba(9, 24, 35, .9) 100%); }
-      .split { grid-template-columns: 1fr; }
-      .cards { grid-template-columns: 1fr; }
-      .footer-inner { grid-template-columns: 1fr; }
+      .hero h1 { font-size: clamp(2.7rem, 11.5vw, 3.6rem); }
+      .compare { grid-template-columns: 1fr; row-gap: 16px; }
+      .compare-col, .compare-col ol { display: block; grid-row: auto; }
+      .t1, .t4 { grid-template-columns: 1fr; }
+      .t2, .t3 { grid-column: span 12; }
+      .scn-list { grid-template-columns: 1fr; }
+      .scn-list li:nth-last-child(2) .scn { border-bottom: 0; }
+      .timeline { grid-template-columns: 1fr; gap: 40px; }
+      .timeline::before, .timeline::after { top: 12px; bottom: 12px; left: 11px; right: auto; width: 2px; height: auto; }
+      .timeline::after { transform-origin: top; background: linear-gradient(180deg, var(--brass), var(--brass) 55%, var(--sea-ink)); }
+      .js .timeline:not(.is-in)::after { transform: scaleY(0); }
+      .step { padding: 0 0 0 52px; }
+      .step-num { font-size: 2.8rem; }
     }
     @media (max-width: 640px) {
-      .header-inner { height: 64px; }
-      .brand-mark { width: 36px; height: 36px; }
-      .brand-name { font-size: 1.08rem; }
+      :root { --header-h: 64px; }
       .brand-tag, .header-cta, .header-phone .label { display: none; }
-      .header-phone { width: 42px; height: 42px; justify-content: center; border: 1.5px solid rgba(255, 255, 255, .25); border-radius: 50%; }
+      .brand-mark { width: 34px; height: 34px; }
+      .brand-name { font-size: 1.24rem; }
+      .header-phone { width: 42px; height: 42px; justify-content: center; border: 1px solid rgba(255, 255, 255, .22); border-radius: 50%; }
       .hero-actions .btn { flex: 1 1 100%; }
-      .chain, .scenario-grid, .contact-cards { grid-template-columns: 1fr; }
-      .chain li:not(:last-child)::after, .chain li:nth-child(2)::after {
-        display: block; top: auto; right: 50%; bottom: -19px; transform: translateX(50%) rotate(135deg);
-      }
-      .scenarios-cta .btn { flex: 1 1 100%; }
+      .chip { padding: 10px 14px 10px 10px; }
+      .chip-ic { width: 32px; height: 32px; }
+      .chip strong { font-size: .85rem; }
+      .loop-wrap { margin: -96px 10px 0; }
+      .stat { padding: 24px 14px 28px; }
+      .stat:nth-child(odd) { padding-left: 0; }
+      .route { font-size: .7rem; }
+      .head-aside .btn { width: 100%; }
+      .loop-title { letter-spacing: .08em; }
+      .contact { padding: 16px; gap: 14px; }
+      .contact-value { font-size: 1.02rem; }
+      .contact .arrow { display: none; }
+      .scn { grid-template-columns: 40px minmax(0, 1fr) 32px; }
+      .handsoff { padding: 22px; }
+      .handsoff-links { width: 100%; }
+      .link-pill { flex: 1 1 100%; }
       .mobile-bar {
         position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
         display: grid; grid-template-columns: auto 1fr; gap: 10px;
         padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
-        background: rgba(11, 30, 43, .96); border-top: 1px solid rgba(255, 255, 255, .1);
-        -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+        background: rgba(7, 22, 33, .94); border-top: 1px solid rgba(255, 255, 255, .1);
+        -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+        transition: transform .35s var(--ease);
       }
-      body { padding-bottom: 80px; }
+      .js .mobile-bar { transform: translateY(110%); }
+      .js .mobile-bar.show { transform: none; }
+      body { padding-bottom: 76px; }
     }
   </style>
 </head>
@@ -325,17 +507,15 @@
     <defs>
       <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5.2 3.8h3.1l1.6 4.1-2.1 1.3a11.4 11.4 0 0 0 7 7l1.3-2.1 4.1 1.6v3.1a2 2 0 0 1-2.1 2A17.3 17.3 0 0 1 3.2 5.9a2 2 0 0 1 2-2.1z"/></symbol>
       <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.2"/><path d="M3.8 6.6 12 12.8l8.2-6.2"/></g></symbol>
-      <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M7 7l10 10M17 7 7 17"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2.2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></g></symbol>
       <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 19.5 6v5.5c0 4.6-3.1 8.2-7.5 9.5-4.4-1.3-7.5-4.9-7.5-9.5V6L12 3z"/><path d="m8.6 12 2.4 2.4 4.4-4.8"/></g></symbol>
-      <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
-      <symbol id="i-return" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.6 13A7.5 7.5 0 1 0 6.8 6.7"/><path d="M4.5 3.8v4.6h4.6"/></g></symbol>
       <symbol id="i-swap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h14.5"/><path d="M15 4.5 18.5 8 15 11.5"/><path d="M20 16H5.5"/><path d="M9 12.5 5.5 16 9 19.5"/></g></symbol>
-      <symbol id="i-drop" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5s6 6.3 6 10.5a6 6 0 0 1-12 0c0-4.2 6-10.5 6-10.5z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></g></symbol>
-      <symbol id="i-trend" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 7 6 6 4-4 8 8"/><path d="M21 12v5h-5"/></g></symbol>
-      <symbol id="i-building" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 21V5.5L12.5 3v18"/><path d="M12.5 8.5 19.5 11v10"/><path d="M3 21h18"/><path d="M8 8.5v.01M8 12v.01M8 15.5v.01M16 14v.01M16 17.5v.01"/></g></symbol>
-      <symbol id="i-cash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 9.5v.01M18 14.5v.01"/></g></symbol>
-      <symbol id="i-briefcase" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7.5" width="18" height="12.5" rx="2"/><path d="M8.5 7.5v-2A1.5 1.5 0 0 1 10 4h4a1.5 1.5 0 0 1 1.5 1.5v2"/><path d="M3 13h18"/></g></symbol>
-      <symbol id="i-uturn" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 5 10l4-4"/><path d="M5 10h9.5a5 5 0 0 1 0 10H12"/></g></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></g></symbol>
+      <symbol id="i-forward" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m14 5 7 7-7 7"/><path d="M21 12H10a6 6 0 0 0-6 6v1"/></g></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5M12 16v.01"/></g></symbol>
     </defs>
   </svg>
 
@@ -343,66 +523,121 @@
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Commercial Funding NW, back to top">
         <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-          <rect width="32" height="32" rx="7" fill="#d08c47"/>
-          <g fill="none" stroke="#0b1e2b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M10 8v16M22 8v16M4 21h24"/>
-            <path d="M4 16.5 10 8.5Q16 19 22 8.5l6 8"/>
-          </g>
+          <rect width="32" height="32" rx="8" fill="#d9a066"/>
+          <g fill="none" stroke="#071621" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 8v16M22 8v16M4 21h24"/><path d="M4 16.5 10 8.5Q16 19 22 8.5l6 8"/></g>
         </svg>
-        <span>
+        <span class="brand-text">
           <span class="brand-name">Commercial Funding <span>NW</span></span>
           <span class="brand-tag">Independent Commercial Brokerage</span>
         </span>
       </a>
+      <nav class="nav" aria-label="Page sections">
+        <a href="#why">Why partner</a>
+        <a href="#scenarios">Deal scenarios</a>
+        <a href="#how">How it works</a>
+      </nav>
       <div class="header-actions">
         <a class="header-phone" href="tel:+12532473757" aria-label="Call 253-247-3757">
           <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
           <span class="label">253-247-3757</span>
         </a>
-        <a class="btn btn-primary btn-sm header-cta" href="mailto:mikep@comfundnw.com" data-scenario-mail>Email a Scenario</a>
+        <a class="btn btn-brass btn-sm header-cta" href="mailto:mikep@comfundnw.com" data-scenario-mail>Email a Scenario</a>
       </div>
     </div>
   </header>
 
   <main id="main">
-    <!-- Hero -->
-    <section class="hero" id="top">
-      <div class="container">
-        <div class="hero-inner">
-          <p class="eyebrow" data-reveal>For Commercial Loan Officers</p>
-          <h1 data-reveal style="--d:1">Turn Bank Loan Denials into <em>Protected Deposit Relationships.</em></h1>
-          <p class="hero-lede" data-reveal style="--d:2">When rigid underwriting forces you to decline a solid commercial borrower, don&rsquo;t let them walk to a competitor. Commercial Funding NW bridges the gap with non-competitive capital&mdash;safeguarding your core deposits and sending the client right back to your desk when bankable.</p>
+    <!-- ============ Hero ============ -->
+    <section class="hero on-dark" id="top">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="pill rise"><span class="pill-dot" aria-hidden="true"></span>For commercial loan officers</p>
+          <h1 class="rise" style="--d:1">Turn Bank Loan Denials into <em>Protected</em> Deposit Relationships.</h1>
+          <p class="lede rise" style="--d:2">When rigid underwriting forces you to decline a solid commercial borrower, don&rsquo;t let them walk to a competitor. Commercial Funding NW bridges the gap with non-competitive capital&mdash;safeguarding your core deposits and sending the client right back to your desk when bankable.</p>
+          <div class="hero-actions rise" style="--d:3">
+            <a class="btn btn-brass" href="mailto:mikep@comfundnw.com" data-scenario-mail>
+              Email a Scenario
+              <svg class="icon arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="tel:+12532473757">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
+              Call 253-247-3757
+            </a>
+          </div>
+          <p class="hero-note rise" style="--d:4">Submit a scenario for a quick <span class="nowrap">24&ndash;48h</span> review. Confidential, with zero obligation.</p>
+        </div>
 
-          <div data-reveal style="--d:3">
-            <p class="hero-cta-label">Submit a scenario for a quick 24&ndash;48h review.</p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="mailto:mikep@comfundnw.com" data-scenario-mail>
-                <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>
-                Email a Scenario
-              </a>
-              <a class="btn btn-outline" href="tel:+12532473757">
-                <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
-                Call 253-247-3757
-              </a>
+        <div class="hero-visual">
+          <figure class="hero-photo unveil">
+            <img src="images/hero-bridge.jpg" width="960" height="1200" alt="The Tacoma Narrows Bridge in Washington State" fetchpriority="high">
+          </figure>
+
+          <div class="chip-wrap rise" style="--d:5">
+            <div class="chip bob-2">
+              <span class="chip-ic"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg></span>
+              <span><small>Serving</small><strong>Pacific NW &amp; the entire U.S.</strong></span>
             </div>
           </div>
 
-          <ul class="trust" data-reveal style="--d:4">
-            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>100% deposit-safe</li>
-            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Zero retail competition</li>
-            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Confidential, zero obligation</li>
-          </ul>
-          <p class="hero-note" data-reveal style="--d:4">Or just give our email or phone number to your client, and we&rsquo;ll handle the rest.</p>
+          <div class="loop-wrap rise" style="--d:6">
+            <div class="loop-card bob">
+              <div class="loop-head">
+                <span class="loop-title">The Return-to-Bank loop</span>
+                <span class="loop-badge"><i aria-hidden="true"></i>Deposit-safe</span>
+              </div>
+              <svg class="loop-svg" viewBox="0 0 360 206" role="img" aria-labelledby="loop-t loop-d">
+                <title id="loop-t">The Return-to-Bank loop</title>
+                <desc id="loop-d">A declined loan goes from your bank to Commercial Funding NW for non-bank capital, and the borrower comes back to your bank when bankable.</desc>
+                <path class="loop-arc arc-top" d="M60 82C80 10 280 10 300 79"/>
+                <path class="loop-arc arc-bot" d="M300 128C280 200 80 200 60 131"/>
+                <path d="M295.2 73.9 300 79l1.5-6.8" fill="none" stroke="#d9a066" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M64.8 136.1 60 131l-1.5 6.8" fill="none" stroke="#86c5bb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+                <g class="loop-dot">
+                  <circle r="9" fill="#d9a066" opacity=".22"/><circle r="4.5" fill="#d9a066"/>
+                  <animateMotion dur="3.4s" repeatCount="indefinite" path="M60 82C80 10 280 10 300 79" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .25 1"/>
+                </g>
+                <g class="loop-dot">
+                  <circle r="9" fill="#86c5bb" opacity=".22"/><circle r="4.5" fill="#86c5bb"/>
+                  <animateMotion dur="3.4s" begin="-1.7s" repeatCount="indefinite" path="M300 128C280 200 80 200 60 131" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .25 1"/>
+                </g>
+
+                <rect x="4" y="82" width="112" height="46" rx="23" fill="#1c3c48" stroke="rgba(134,197,187,.55)"/>
+                <g transform="translate(15 97)" fill="none" stroke="#86c5bb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M0 5.5 8 1l8 4.5M2 7v6M6 7v6M10 7v6M14 7v6M1 15h14"/></g>
+                <text x="39" y="110" fill="#fff" font-size="13">Your bank</text>
+
+                <rect x="244" y="82" width="112" height="46" rx="23" fill="#26373e" stroke="rgba(217,160,102,.6)"/>
+                <g transform="translate(266 96) scale(.56)" fill="none" stroke="#d9a066" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 8v16M22 8v16M4 21h24"/><path d="M4 16.5 10 8.5Q16 19 22 8.5l6 8"/></g>
+                <text x="294" y="110" fill="#fff" font-size="13">CFNW</text>
+
+                <rect x="126" y="17" width="108" height="22" rx="11" fill="#0f2a3a" stroke="rgba(217,160,102,.45)"/>
+                <text x="180" y="32" text-anchor="middle" fill="#d9a066" font-size="11">Loan declined</text>
+                <rect x="112" y="171" width="136" height="22" rx="11" fill="#0f2a3a" stroke="rgba(134,197,187,.45)"/>
+                <text x="180" y="186" text-anchor="middle" fill="#86c5bb" font-size="11">Back when bankable</text>
+              </svg>
+              <p class="loop-foot"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Treasury &amp; deposit accounts stay at your bank</p>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="container">
+        <ul class="stats">
+          <li class="stat" data-reveal><strong class="stat-num">24&ndash;48h</strong><span class="stat-label">Scenario review</span></li>
+          <li class="stat" data-reveal style="--d:1"><strong class="stat-num">1&ndash;3 days</strong><span class="stat-label">To conditional approval</span></li>
+          <li class="stat" data-reveal style="--d:2"><strong class="stat-num"><span data-count="100">100</span>%</strong><span class="stat-label">Deposit neutral</span></li>
+          <li class="stat" data-reveal style="--d:3"><strong class="stat-num">Zero</strong><span class="stat-label">Retail competition</span></li>
+        </ul>
       </div>
     </section>
 
-    <!-- The problem -->
+    <!-- ============ The problem ============ -->
     <section class="section problem" aria-labelledby="problem-title">
       <div class="container">
-        <div class="split">
+        <div class="intro">
           <div data-reveal>
-            <p class="eyebrow">The Real Cost of &ldquo;No&rdquo;</p>
+            <p class="eyebrow"><b>01</b>The real cost of &ldquo;no&rdquo;</p>
             <h2 id="problem-title">A Turned-Down Loan Shouldn&rsquo;t Cost You an Entire Depository Relationship.</h2>
           </div>
           <div class="prose" data-reveal style="--d:1">
@@ -411,173 +646,301 @@
           </div>
         </div>
 
-        <ol class="chain" aria-label="How a declined loan becomes a lost relationship">
-          <li data-reveal><strong>You decline the loan</strong><span>Credit blips, tight cash flow reporting, or non-conforming collateral.</span></li>
-          <li data-reveal style="--d:1"><strong>The client looks elsewhere</strong><span>A frustrated borrower takes the deal to a competing bank.</span></li>
-          <li data-reveal style="--d:2"><strong>They demand the deposits</strong><span>The approving bank requires all treasury and deposit accounts.</span></li>
-          <li class="is-loss" data-reveal style="--d:3"><strong>The relationship is gone</strong><span>Years of relationship building walk out the door.</span></li>
-        </ol>
+        <div class="compare">
+          <div class="compare-col without" data-reveal>
+            <p class="compare-head">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>
+              Without a bridge partner
+            </p>
+            <ol>
+              <li><span class="mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></span>You decline a solid borrower over credit, cash flow reporting, or collateral.</li>
+              <li><span class="mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></span>The frustrated client takes the deal to a competing bank.</li>
+              <li><span class="mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></span>The approving bank demands all treasury and deposit accounts.</li>
+              <li><span class="mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></span>Years of relationship building walk out the door.</li>
+            </ol>
+          </div>
+          <div class="compare-col with" data-reveal style="--d:2">
+            <p class="compare-head">
+              <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="8" fill="#d9a066"/><g fill="none" stroke="#071621" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 8v16M22 8v16M4 21h24"/><path d="M4 16.5 10 8.5Q16 19 22 8.5l6 8"/></g></svg>
+              With Commercial Funding NW
+            </p>
+            <ol>
+              <li><span class="mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span>You make a confidential introduction, with zero obligation.</li>
+              <li><span class="mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span>We source private, non-bank capital, with conditional approval in <span class="nowrap">1&ndash;3</span> business days.</li>
+              <li><span class="mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span>Your client&rsquo;s operating accounts stay safely at your bank.</li>
+              <li><span class="mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span>The borrower returns to your desk the moment they&rsquo;re bankable.</li>
+            </ol>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Why partner -->
-    <section class="section why" aria-labelledby="why-title">
+    <!-- ============ Why partner ============ -->
+    <section class="section why" id="why" aria-labelledby="why-title">
       <div class="container">
         <div class="section-head" data-reveal>
-          <p class="eyebrow">The Partner Advantage</p>
+          <p class="eyebrow"><b>02</b>The partner advantage</p>
           <h2 id="why-title">Why Partner with Commercial Funding NW?</h2>
         </div>
-        <div class="cards">
-          <article class="card" data-reveal>
-            <div class="icon-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></div>
-            <h3>100% Deposit Neutral</h3>
-            <p>We are an independent commercial brokerage. We do not offer retail banking products or take deposits&mdash;your client&rsquo;s operating accounts stay safely at your bank.</p>
+
+        <div class="bento">
+          <article class="tile tile-dark t1" data-reveal>
+            <div>
+              <div class="tile-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></div>
+              <h3>100% Deposit Neutral</h3>
+              <p>We are an independent commercial brokerage. We do not offer retail banking products or take deposits&mdash;your client&rsquo;s operating accounts stay safely at your bank.</p>
+            </div>
+            <div class="acct" aria-hidden="true">
+              <div class="acct-top"><span>Client relationship</span><span class="badge-sea"><svg class="icon"><use href="#i-lock"/></svg>At your bank</span></div>
+              <div class="acct-row"><span>Operating accounts</span><span class="acct-status"><svg class="icon"><use href="#i-check"/></svg>Stays</span></div>
+              <div class="acct-row"><span>Treasury management</span><span class="acct-status"><svg class="icon"><use href="#i-check"/></svg>Stays</span></div>
+              <div class="acct-row"><span>Core deposits</span><span class="acct-status"><svg class="icon"><use href="#i-check"/></svg>Stays</span></div>
+              <div class="acct-row bridge"><span>Bridge financing</span><span class="acct-status">Arranged by CFNW</span></div>
+            </div>
           </article>
-          <article class="card" data-reveal style="--d:1">
-            <div class="icon-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg></div>
+
+          <article class="tile tile-sand t2" data-reveal style="--d:1">
+            <p class="big-num" aria-hidden="true">1&ndash;3</p>
+            <p class="big-num-label" aria-hidden="true">Business days to conditional approval</p>
             <h3>Rapid Turnaround</h3>
             <p>Leveraging an extensive network of private, non-bank, and specialty capital providers, we deliver conditional approvals in 1 to 3 business days.</p>
           </article>
-          <article class="card" data-reveal>
-            <div class="icon-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-return"/></svg></div>
+
+          <article class="tile t3" data-reveal>
+            <ol class="route" aria-hidden="true">
+              <li><span class="r-dot"></span>Declined</li>
+              <li><span class="r-dot"></span>Bridge capital</li>
+              <li><span class="r-dot"></span>Stabilized</li>
+              <li class="home"><span class="r-dot"></span>Back to your bank</li>
+            </ol>
             <h3>The Built-In &ldquo;Return to Bank&rdquo; Strategy</h3>
             <p>Private capital is a bridge, not a permanent home. We work alongside the borrower to stabilize financials and guide them back to your desk the moment they meet conventional guidelines.</p>
           </article>
-          <article class="card" data-reveal style="--d:1">
-            <div class="icon-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-swap"/></svg></div>
-            <h3>Two-Way Deal Flow</h3>
-            <p>Our growing network of commercial clients constantly needs depository services, treasury management, and prime bank lines. We actively send prime banking opportunities to our trusted partner lenders.</p>
+
+          <article class="tile t4" data-reveal style="--d:1">
+            <div>
+              <div class="tile-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-swap"/></svg></div>
+              <h3>Two-Way Deal Flow</h3>
+              <p>Our growing network of commercial clients constantly needs depository services, treasury management, and prime bank lines. We actively send prime banking opportunities to our trusted partner lenders.</p>
+            </div>
+            <div class="flows" aria-hidden="true">
+              <div class="flow">
+                <span class="flow-node">Your bank</span><span class="flow-line"><i></i></span><span class="flow-node cf">CFNW</span>
+                <span class="flow-cap"><b>You send:</b> solid borrowers you have to decline</span>
+              </div>
+              <div class="flow back">
+                <span class="flow-node">Your bank</span><span class="flow-line"><i></i></span><span class="flow-node cf">CFNW</span>
+                <span class="flow-cap"><b>We send:</b> clients who need deposits, treasury &amp; prime bank lines</span>
+              </div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Deal scenarios -->
-    <section class="section scenarios" aria-labelledby="scenarios-title">
+    <!-- ============ Quote band ============ -->
+    <section class="band on-dark" aria-label="The Return to Bank strategy">
+      <img class="band-img" src="images/seattle-dusk.jpg" width="1600" height="1200" alt="" loading="lazy" decoding="async">
+      <div class="container band-inner">
+        <figure data-reveal>
+          <blockquote><p>&ldquo;Private capital is a bridge, <em>not a permanent home.</em>&rdquo;</p></blockquote>
+          <figcaption>The Commercial Funding NW &ldquo;Return to Bank&rdquo; strategy</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ Deal scenarios ============ -->
+    <section class="section scenarios on-dark" id="scenarios" aria-labelledby="scn-title">
       <div class="container">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Deal Scenarios We Solve</p>
-          <h2 id="scenarios-title">Common &ldquo;Outside-the-Box&rdquo; Deals We Bridge</h2>
+        <div class="head-split">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow"><b>03</b>Deal scenarios we solve</p>
+            <h2 id="scn-title">Common <span class="nowrap">&ldquo;Outside-the-Box&rdquo;</span> Deals We Bridge</h2>
+          </div>
+          <div class="head-aside" data-reveal style="--d:1">
+            <p>Have one of these on your desk? Send us the scenario for a quick <span class="nowrap">24&ndash;48h</span> review.</p>
+            <a class="btn btn-brass" href="mailto:mikep@comfundnw.com" data-scenario-mail>
+              Email a Scenario
+              <svg class="icon arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
         </div>
-        <ul class="scenario-grid">
+
+        <ul class="scn-list">
           <li data-reveal>
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-drop"/></svg>
-            <div><h3>Short-Term Liquidity &amp; Working Capital Gaps</h3><p>Unseasoned balance sheets, rapid growth spikes</p></div>
+            <a class="scn" href="mailto:mikep@comfundnw.com" data-scenario-mail data-scenario="Short-Term Liquidity / Working Capital Gap">
+              <span class="scn-num" aria-hidden="true">01</span>
+              <div><span class="sr-only">Email a scenario: </span><h3>Short-Term Liquidity &amp; Working Capital Gaps</h3><p>Unseasoned balance sheets, rapid growth spikes</p></div>
+              <span class="scn-go" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            </a>
           </li>
           <li data-reveal style="--d:1">
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-trend"/></svg>
-            <div><h3>Challenged Credit or Tax Liens</h3><p>Unfavorable recent personal or corporate history</p></div>
-          </li>
-          <li data-reveal style="--d:2">
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-building"/></svg>
-            <div><h3>Specialized or Non-Conforming Commercial Real Estate</h3><p>Bridge, transitional, or value-add assets</p></div>
+            <a class="scn" href="mailto:mikep@comfundnw.com" data-scenario-mail data-scenario="Challenged Credit or Tax Liens">
+              <span class="scn-num" aria-hidden="true">02</span>
+              <div><span class="sr-only">Email a scenario: </span><h3>Challenged Credit or Tax Liens</h3><p>Unfavorable recent personal or corporate history</p></div>
+              <span class="scn-go" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            </a>
           </li>
           <li data-reveal>
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cash"/></svg>
-            <div><h3>Complex Cash Flow or Asset-Based Needs</h3><p>Equipment, inventory, and accounts receivable factoring</p></div>
+            <a class="scn" href="mailto:mikep@comfundnw.com" data-scenario-mail data-scenario="Non-Conforming Commercial Real Estate">
+              <span class="scn-num" aria-hidden="true">03</span>
+              <div><span class="sr-only">Email a scenario: </span><h3>Specialized or Non-Conforming Commercial Real Estate</h3><p>Bridge, transitional, or value-add assets</p></div>
+              <span class="scn-go" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            </a>
           </li>
           <li data-reveal style="--d:1">
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-briefcase"/></svg>
-            <div><h3>Business-Only Financing</h3></div>
+            <a class="scn" href="mailto:mikep@comfundnw.com" data-scenario-mail data-scenario="Complex Cash Flow / Asset-Based">
+              <span class="scn-num" aria-hidden="true">04</span>
+              <div><span class="sr-only">Email a scenario: </span><h3>Complex Cash Flow or Asset-Based Needs</h3><p>Equipment, inventory, and accounts receivable factoring</p></div>
+              <span class="scn-go" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            </a>
           </li>
-          <li data-reveal style="--d:2">
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-uturn"/></svg>
-            <div><h3>SBA Turndowns</h3></div>
+          <li data-reveal>
+            <a class="scn" href="mailto:mikep@comfundnw.com" data-scenario-mail data-scenario="Business-Only Financing">
+              <span class="scn-num" aria-hidden="true">05</span>
+              <div><span class="sr-only">Email a scenario: </span><h3>Business-Only Financing</h3></div>
+              <span class="scn-go" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            </a>
+          </li>
+          <li data-reveal style="--d:1">
+            <a class="scn" href="mailto:mikep@comfundnw.com" data-scenario-mail data-scenario="SBA Turndown">
+              <span class="scn-num" aria-hidden="true">06</span>
+              <div><span class="sr-only">Email a scenario: </span><h3>SBA Turndowns</h3></div>
+              <span class="scn-go" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            </a>
           </li>
         </ul>
-        <div class="scenarios-cta" data-reveal>
-          <p>Have one of these on your desk?</p>
-          <a class="btn btn-primary" href="mailto:mikep@comfundnw.com" data-scenario-mail>
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>
-            Email a Scenario
-          </a>
-        </div>
       </div>
     </section>
 
-    <!-- How it works -->
-    <section class="section how" aria-labelledby="how-title">
-      <div class="container how-grid">
-        <figure class="how-media" data-reveal>
-          <img src="images/handshake.jpg" width="1200" height="803" loading="lazy" decoding="async" alt="Two business professionals shaking hands across a café table">
-          <figcaption class="badge"><strong>24&ndash;48h</strong>scenario review</figcaption>
-        </figure>
-        <div>
-          <div data-reveal>
-            <p class="eyebrow">How It Works</p>
-            <h2 id="how-title">From Roadblock to Re-Bank in Three Steps</h2>
+    <!-- ============ How it works ============ -->
+    <section class="section how" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-head center" data-reveal>
+          <p class="eyebrow"><b>04</b>How it works</p>
+          <h2 id="how-title">From Roadblock to <span class="nowrap">Re-Bank</span> in Three Steps</h2>
+        </div>
+
+        <ol class="timeline" data-inview>
+          <li class="step" data-reveal>
+            <span class="step-dot" aria-hidden="true"></span>
+            <span class="step-num" aria-hidden="true">01</span>
+            <h3>The Roadblock</h3>
+            <p>You hit an underwriting roadblock on an otherwise solid business relationship.</p>
+            <span class="step-tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>Credit, cash flow, or collateral</span>
+          </li>
+          <li class="step" data-reveal style="--d:2">
+            <span class="step-dot" aria-hidden="true"></span>
+            <span class="step-num" aria-hidden="true">02</span>
+            <h3>Make the Introduction</h3>
+            <p>Introduce us or discuss the scenario confidentially with zero obligation.</p>
+            <span class="step-tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Confidential &middot; zero obligation</span>
+          </li>
+          <li class="step" data-reveal style="--d:4">
+            <span class="step-dot" aria-hidden="true"></span>
+            <span class="step-num" aria-hidden="true">03</span>
+            <h3>Protect &amp; Re-Bank</h3>
+            <p>We structure a solution immediately, your deposit base remains untouched, and we return the borrower to you when they are ready for traditional debt.</p>
+            <span class="step-tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>Deposit base untouched</span>
+          </li>
+        </ol>
+
+        <div class="handsoff" data-reveal>
+          <div class="handsoff-copy">
+            <span class="handsoff-ic"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-forward"/></svg></span>
+            <p><strong>Prefer to stay hands-off?</strong>Just give our email or phone number to your client, and we&rsquo;ll handle the rest.</p>
           </div>
-          <ol class="steps">
-            <li data-reveal>
-              <span class="step-num" aria-hidden="true">01</span>
-              <div><h3>The Roadblock</h3><p>You hit an underwriting roadblock on an otherwise solid business relationship.</p></div>
-            </li>
-            <li data-reveal style="--d:1">
-              <span class="step-num" aria-hidden="true">02</span>
-              <div><h3>Make the Introduction</h3><p>Introduce us or discuss the scenario confidentially with zero obligation.</p></div>
-            </li>
-            <li data-reveal style="--d:2">
-              <span class="step-num" aria-hidden="true">03</span>
-              <div><h3>Protect &amp; Re-Bank</h3><p>We structure a solution immediately, your deposit base remains untouched, and we return the borrower to you when they are ready for traditional debt.</p></div>
-            </li>
-          </ol>
+          <div class="handsoff-links">
+            <a class="link-pill" href="tel:+12532473757"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>253-247-3757</a>
+            <a class="link-pill" href="mailto:mikep@comfundnw.com"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>mikep@comfundnw.com</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Final CTA -->
-    <section class="cta" id="contact" aria-labelledby="cta-title">
-      <div class="container cta-inner">
+    <!-- ============ Final CTA ============ -->
+    <section class="cta on-dark" id="contact" aria-labelledby="cta-title">
+      <div class="cta-sky" aria-hidden="true"></div>
+      <div class="container cta-grid">
         <div data-reveal>
-          <p class="eyebrow">Get Started</p>
+          <p class="eyebrow"><b>05</b>Get started</p>
           <h2 id="cta-title">Let&rsquo;s Protect Your Next Borderline Deal.</h2>
-          <p class="cta-lede">Submit a scenario for a quick 24&ndash;48h review. Confidential, with zero obligation.</p>
+          <p class="cta-lede">Submit a scenario for a quick <span class="nowrap">24&ndash;48h</span> review. 100% deposit-safe. Zero retail competition.</p>
+          <div class="contacts">
+            <a class="contact" href="tel:+12532473757">
+              <span class="contact-ic"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></span>
+              <span><span class="contact-label">Call</span><span class="contact-value">253-247-3757</span></span>
+              <svg class="icon arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="contact" href="mailto:mikep@comfundnw.com" data-scenario-mail>
+              <span class="contact-ic"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span>
+              <span><span class="contact-label">Email a scenario</span><span class="contact-value">mikep@comfundnw.com</span></span>
+              <svg class="icon arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+          <p class="cta-name">Commercial Funding Northwest</p>
         </div>
-        <div class="contact-cards" data-reveal style="--d:1">
-          <a class="contact-card" href="tel:+12532473757">
-            <span class="ic"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></span>
-            <span><span class="label">Call</span><span class="value">253-247-3757</span></span>
-          </a>
-          <a class="contact-card" href="mailto:mikep@comfundnw.com" data-scenario-mail>
-            <span class="ic"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span>
-            <span><span class="label">Email a scenario</span><span class="value">mikep@comfundnw.com</span></span>
-          </a>
+
+        <div data-reveal style="--d:2">
+          <div class="mail">
+            <div class="mail-bar"><span class="mail-dots" aria-hidden="true"><i></i><i></i><i></i></span>New scenario</div>
+            <div class="mail-body">
+              <dl class="mail-meta">
+                <div><dt>To</dt><dd>mikep@comfundnw.com</dd></div>
+                <div><dt>Subject</dt><dd>Loan scenario for review</dd></div>
+              </dl>
+              <p class="mail-label">What to include</p>
+              <ul class="mail-fields">
+                <li>Borrower / industry</li>
+                <li>Loan amount &amp; purpose</li>
+                <li>Collateral</li>
+                <li>Reason for decline</li>
+                <li>Best way to reach you</li>
+              </ul>
+              <a class="btn btn-ink" href="mailto:mikep@comfundnw.com" data-scenario-mail>
+                Open a pre-filled email
+                <svg class="icon arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </div>
         </div>
-        <p class="cta-name" data-reveal style="--d:2">Commercial Funding Northwest</p>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <a class="brand" href="#top" aria-label="Commercial Funding NW, back to top">
-        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-          <rect width="32" height="32" rx="7" fill="#d08c47"/>
-          <g fill="none" stroke="#0b1e2b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M10 8v16M22 8v16M4 21h24"/>
-            <path d="M4 16.5 10 8.5Q16 19 22 8.5l6 8"/>
-          </g>
-        </svg>
-        <span class="brand-name">Commercial Funding <span>NW</span></span>
-      </a>
-      <p class="disclaimer">Commercial Funding NW is an independent commercial brokerage serving the Pacific Northwest, and the entire U.S. We operate under strict confidentiality and do not solicit bank depository services.</p>
-      <div class="footer-bottom">
-        <p>&copy; <span id="year">2026</span> Commercial Funding NW. All rights reserved.</p>
-        <p class="footer-links">
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="brand" href="#top" aria-label="Commercial Funding NW, back to top">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <rect width="32" height="32" rx="8" fill="#d9a066"/>
+            <g fill="none" stroke="#071621" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 8v16M22 8v16M4 21h24"/><path d="M4 16.5 10 8.5Q16 19 22 8.5l6 8"/></g>
+          </svg>
+          <span class="brand-text">
+            <span class="brand-name">Commercial Funding <span>NW</span></span>
+            <span class="brand-tag">Independent Commercial Brokerage</span>
+          </span>
+        </a>
+        <p class="disclaimer">Commercial Funding NW is an independent commercial brokerage serving the Pacific Northwest, and the entire U.S. We operate under strict confidentiality and do not solicit bank depository services.</p>
+        <div class="footer-contact">
           <a href="tel:+12532473757">253-247-3757</a>
           <a href="mailto:mikep@comfundnw.com">mikep@comfundnw.com</a>
-        </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> Commercial Funding NW. All rights reserved.</p>
+        <a href="#top">Back to top &uarr;</a>
       </div>
     </div>
   </footer>
 
   <!-- Sticky contact bar (phones only) -->
   <nav class="mobile-bar" aria-label="Quick contact">
-    <a class="btn btn-outline" href="tel:+12532473757" aria-label="Call 253-247-3757">
+    <a class="btn btn-ghost" href="tel:+12532473757" aria-label="Call 253-247-3757">
       <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
       Call
     </a>
-    <a class="btn btn-primary" href="mailto:mikep@comfundnw.com" data-scenario-mail>
+    <a class="btn btn-brass" href="mailto:mikep@comfundnw.com" data-scenario-mail>
       <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>
       Email a Scenario
     </a>
@@ -585,42 +948,64 @@
 
   <script>
     (function () {
-      // Pre-fill the scenario email so bankers know what to send.
-      var body = [
-        'Hello,',
-        '',
-        'I have a commercial loan scenario for review.',
-        '',
-        'Borrower / industry: ',
-        'Loan amount & purpose: ',
-        'Collateral: ',
-        'Reason for decline: ',
-        'Best way to reach me: ',
-        '',
-        'Thank you,'
-      ].join('\r\n');
-      var href = 'mailto:mikep@comfundnw.com?subject=' + encodeURIComponent('Loan Scenario for Review') +
-                 '&body=' + encodeURIComponent(body);
-      document.querySelectorAll('[data-scenario-mail]').forEach(function (a) { a.href = href; });
+      var EMAIL = 'mikep@comfundnw.com';
+      var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // Pre-filled scenario emails (optionally tagged with the scenario type).
+      function scenarioMailto(scenario) {
+        var lines = ['Hello,', '', 'I have a commercial loan scenario for review.', ''];
+        if (scenario) lines.push('Scenario type: ' + scenario);
+        lines.push('Borrower / industry: ', 'Loan amount & purpose: ', 'Collateral: ', 'Reason for decline: ', 'Best way to reach me: ', '', 'Thank you,');
+        var subject = 'Loan Scenario for Review' + (scenario ? ' - ' + scenario : '');
+        return 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\r\n'));
+      }
+      document.querySelectorAll('[data-scenario-mail]').forEach(function (a) {
+        a.setAttribute('href', scenarioMailto(a.getAttribute('data-scenario') || ''));
+      });
 
       var year = document.getElementById('year');
       if (year) year.textContent = new Date().getFullYear();
 
-      // Fade sections in as they scroll into view.
-      var items = document.querySelectorAll('[data-reveal]');
+      // Solid header once the page scrolls.
+      var header = document.querySelector('.site-header');
+      function onScroll() { header.classList.toggle('is-scrolled', window.scrollY > 8); }
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+
+      function countUp(el) {
+        var end = Number(el.getAttribute('data-count'));
+        if (reduceMotion) { el.textContent = end; return; }
+        var start = performance.now(), duration = 1400;
+        (function tick(now) {
+          var p = Math.min((now - start) / duration, 1);
+          el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3)));
+          if (p < 1) requestAnimationFrame(tick);
+        })(start);
+      }
+
+      var watched = document.querySelectorAll('[data-reveal],[data-inview],[data-count]');
       if (!('IntersectionObserver' in window)) {
-        items.forEach(function (el) { el.classList.add('is-visible'); });
+        watched.forEach(function (el) { el.classList.add('is-in'); });
         return;
       }
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-visible');
-            io.unobserve(entry.target);
-          }
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-in');
+          if (entry.target.hasAttribute('data-count')) countUp(entry.target);
+          io.unobserve(entry.target);
         });
-      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-      items.forEach(function (el) { io.observe(el); });
+      }, { threshold: 0.15, rootMargin: '0px 0px -6% 0px' });
+      watched.forEach(function (el) { io.observe(el); });
+
+      // Phones: show the call/email bar once the hero buttons scroll away.
+      var bar = document.querySelector('.mobile-bar');
+      var heroActions = document.querySelector('.hero-actions');
+      if (bar && heroActions) {
+        new IntersectionObserver(function (entries) {
+          bar.classList.toggle('show', !entries[0].isIntersecting);
+        }).observe(heroActions);
+      }
     })();
   </script>
 </body>
